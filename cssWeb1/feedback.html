@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.jpg">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="images/logo.jpg " id="logoImg" alt="">
+            </div>
+            <div id="heading">Knowledge Hub</div>
+            <div id="address">
+                121, Nancy Apartment,<br>
+                Annapurna Road, Indore<br>
+                pin code:452009 
+            </div>
+        </div>
+        <div id="nav">
+            <label for="hum">
+                <img src="images/humber.jpg" id="humber" alt="">
+            </label>
+            <input type="checkbox" id="hum">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Books &#9662;</a>
+                    <ul>
+                        <li><a href="">Story books</a></li>
+                        <li><a href="">History books</a></li>
+                        <li><a href="">Poetry Books</a></li>
+                        <li><a href="">Science books</a></li>
+                        <li><a href="">Horror books</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="signIn.html">SignIn</a></li>
+            </ul>
+        </div>
+        <div id="feedback">
+            <form>
+
+                <center>
+                    <h1> Feedback Form </h1>
+                    <h3> We value your feedback! Please let us know your thoughts.</h3>
+                </center>
+                Name :<input type="text" id="name" placeholder=" Enter your Name "><br>
+                Email :<input type="email" id="email" placeholder=" Enter your Email"><br>
+                <label>Feedback :</label><br>
+                <textarea name="feedback" id="feed" placeholder=" Write your feedback here..."></textarea> <br><br>
+                <label>How was your experience with Knowledge Hub ?</label><br><br>
+                <div id="option">
+                    <input type="radio" name="experience" id="best"><label for="best">Best</label>
+                    <input type="radio" name="experience" id="better"><label for="better">Better</label>
+                    <input type="radio" name="experience" id="good"><label for="good">Good</label>
+                    <input type="radio" name="experience" id="average"><label for="average">Average</label>
+                    <input type="radio" name="experience" id="poor"><label for="poor">Poor</label>
+                </div>
+                <center><input type="submit" value="Submit Feedback" id="submit"></center>
+        </div>
+        </form>
+</body>
+
+</html>
